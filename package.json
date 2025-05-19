@@ -1,0 +1,32 @@
+{
+  "name": "joao-campos-dark-theme",
+  "version": "0.0.4",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  },
+  "author": "João Campos",
+  "license": "ISC",
+  "description": "Dark Theme - João Campos",
+  "displayName": "João Dark Theme",
+  "icon": "assets/joao-theme.png",
+  "keywords": ["João Campos", "João Campos dark theme", "João dark theme"],
+  "publisher": "JooCampos",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "João Campos",
+        "uiTheme": "vs-dark",
+        "path": "./themes/joao-themes.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
