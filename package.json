@@ -16,6 +16,7 @@
   "engines": {
     "vscode": "^1.22.0"
   },
+  "repository": {"url": "https://github.com/joaonevescampos/joao-campos-theme"},
   "categories": ["Themes"],
   "contributes": {
     "themes": [
