@@ -23,7 +23,7 @@ Para atualizar o tema,
 0) Clone este repositório, faça suas alterações no themes/joao-themes.json;
 1) rode: `sudo npm install -g vsce`;
 2) Mude a versão no package.json
-3) Gere um novo .vsix:`vsce package`;
+3) Gere um novo .vsix:`vsce package` e exclua o anterior;
 4) Publique no Markeplace da Microsoft: `vsce publish` - Crie uma conta na Microsoft, caso não tenha.
 
 ## Licença
