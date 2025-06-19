@@ -18,6 +18,13 @@ Gosto o tema dark com cor azul escuro, bem clean e elegante, dando alto contrast
 - github: https://github.com/joaonevescampos
 </div>
 
+# Update Theme
+Para atualizar o tema, 
+0) Clone este repositório, faça suas alterações no themes/joao-themes.json;
+1) rode: `sudo npm install -g vsce`;
+2) Mude a versão no package.json
+3) Gere um novo .vsix:`vsce package`;
+4) Publique no Markeplace da Microsoft: `vsce publish` - Crie uma conta na Microsoft, caso não tenha.
 
 ## Licença
 ISC
